@@ -14,6 +14,16 @@ A production-ready Helmet Detection System built using **YOLOv8** for detecting 
 
 ---
 
+##  Deliverables
+
+1. Model training notebook : training_notebook.ipynb
+2. Evaluation report : evaluation_report.txt
+3. Inference script :Inference.py
+4. API endpoint : Api.py / 'https://sudhanshu03-helmet-detection.hf.space'
+5. End - to - End Process Documentation :
+
+---
+
 ##  Project Structure
 
 ```
