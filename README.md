@@ -203,18 +203,13 @@ Example detections produced by the model:
 [ View Detection Video](results/inference/5450256-uhd_3840_2160_30fps_detected.mp4)
 ```
 <p align="center">
-  <img src="results/inference/Different-types-of-helmets_detected.jpg" width="200"/>
-</p>
-
-<p align="center">
-  <img src="results/inference/images_detected.jpg" width="200"/>
-</p>
-
-<p align="center">
-  <a href="results/5450256-uhd_3840_2160_30fps_detected.mp44">
-    <img src="results/inference/video_preview.jpg" width="600"/>
+  <img src="results/inference/Different-types-of-helmets_detected.jpg" width="250"/>
+  <img src="results/inference/images_detected.jpg" width="250"/>
+  <a href="results/inference/5450256-uhd_3840_2160_30fps_detected.mp4">
+    <img src="results/inference/video_preview.jpg" width="250"/>
   </a>
 </p>
+
 ---
 
 ##  REST API Deployment
