@@ -165,7 +165,7 @@ Evaluation includes:
 
 ##  Confusion MAtrix Of the Trained Model:
 <p align="center">
-  <img src="results/evaluation/confusion_matrix.png" width="250"/>
+  <img src="results/evaluation/confusion_matrix.png" width="400"/>
 </p>
 
 ---
