@@ -199,14 +199,12 @@ Example detections produced by the model:
 
 ```markdown
 ![Inference Result 1](results/inference/Different-types-of-helmets_detected.jpg)
-<p align="center">
-  <img src="results/inference/Different-types-of-helmets_detected.jpg" width="900"/>
-</p>
----
 ![Inference Result 2](results/inference/images_detected.jpg)
 [ View Detection Video](results/inference/5450256-uhd_3840_2160_30fps_detected.mp4)
 ```
-
+<p align="center">
+  <img src="results/inference/Different-types-of-helmets_detected.jpg" width="900"/>
+</p>
 
 ---
 
