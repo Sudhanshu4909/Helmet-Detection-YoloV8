@@ -28,6 +28,9 @@ A production-ready Helmet Detection System built using **YOLOv8** for detecting 
 
 5. End-to-End Process Documentation: [README.md](README.md)
 
+6.  ##  BONUS: [LIVE DEMO](https://helmet-detection-yolo-v8-wyyo.vercel.app/)
+
+
 
 ---
 
