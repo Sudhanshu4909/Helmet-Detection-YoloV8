@@ -11,8 +11,6 @@ A production-ready Helmet Detection System built using **YOLOv8** for detecting 
 * YOLOv8 model training and evaluation
 * Image, video, and batch inference support
 * REST API deployment with FastAPI
-* Deployment-ready for Hugging Face Spaces or cloud servers
-* Modular and production-friendly project structure
 
 ---
 
@@ -52,7 +50,7 @@ helmet-detection/
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/<your-username>/helmet-detection.git
+git clone https://github.com/Sudhanshu4909/helmet-detection.git
 cd helmet-detection
 ```
 
