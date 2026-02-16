@@ -201,7 +201,7 @@ Example detections produced by the model:
 ![Inference Result 1](results/inference/Different-types-of-helmets_detected.jpg)
 ![Inference Result 2](results/inference/images_detected.jpg)
 [ View Detection Video](results/inference/5450256-uhd_3840_2160_30fps_detected.mp4)
-
+```
 
 
 ---
