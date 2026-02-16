@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+/* small custom utilities */
+.canvas-wrap { position: relative; display: inline-block; }
+.detection-box { position: absolute; pointer-events: none; }
