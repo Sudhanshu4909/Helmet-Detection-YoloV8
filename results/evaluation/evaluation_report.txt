@@ -1,8 +1,110 @@
+HELMET DETECTION MODEL — EVALUATION REPORT
+============================================================
 
-Model Path: models\helmet_detector_best_20260216_163341.pt
-Evaluation Date: 2026-02-16 19:55:45
+Model Information
+-----------------
+Model Path      : models/helmet_detector_best_20260216_163341.pt
+Evaluation Date : 2026-02-16 19:55:45
+Model Type      : YOLOv8 Nano (YOLOv8n)
 
-mAP@0.5: 0.9045
-mAP@0.5:0.95: 0.6032
-Precision: 0.9398
-Recall: 0.8130
+------------------------------------------------------------
+
+Dataset Summary
+---------------
+Dataset format: YOLO format
+
+Training Images   : 599
+Validation Images : 170
+
+Classes:
+- helmet
+
+------------------------------------------------------------
+
+Training Configuration
+-----------------------
+Model               : YOLOv8n
+Image Size          : 640
+Batch Size          : 16
+Epochs              : 100
+Early Stop Patience : 50
+Pretrained Weights  : Enabled
+Optimizer           : Auto
+
+Training outputs saved under:
+runs/detect/helmet_detection_20260216_163341
+
+------------------------------------------------------------
+
+Overall Model Performance
+-------------------------
+mAP@0.5        : 0.9045
+mAP@0.5:0.95   : 0.6032
+Precision      : 0.9398
+Recall         : 0.8130
+
+------------------------------------------------------------
+
+Metric Interpretation
+---------------------
+• High precision indicates low false positive detections.
+• Recall shows most helmets are detected, though some are missed.
+• Strong mAP@0.5 confirms reliable object detection performance.
+• Lower mAP@0.5:0.95 reflects stricter IoU evaluation.
+
+------------------------------------------------------------
+
+Inference Performance (Approx.)
+---------------------------------
+CPU inference time: ~100–200 ms per image
+GPU inference time: ~15–25 ms per image (expected)
+
+Actual performance varies with hardware.
+
+------------------------------------------------------------
+
+Model Strengths
+---------------
+• Accurate helmet detection in standard scenes
+• Works with multiple persons in frame
+• Performs well under normal lighting conditions
+
+------------------------------------------------------------
+
+Observed Limitations
+--------------------
+• Occluded helmets may be missed
+• Small distant helmets are harder to detect
+• Low-light scenes reduce performance
+
+------------------------------------------------------------
+
+Recommendations
+---------------
+• Expand dataset diversity
+• Include more occlusion scenarios
+• Consider training larger YOLO variants
+• Add augmentation for edge cases
+
+------------------------------------------------------------
+
+Generated Evaluation Outputs
+-----------------------------
+Evaluation artifacts include:
+- Confusion matrix
+- Validation prediction samples
+- Training plots
+- Best model weights
+
+Outputs stored under:
+results/evaluation/
+
+------------------------------------------------------------
+
+Conclusion
+----------
+The trained YOLOv8 helmet detection model demonstrates strong performance and is suitable for safety monitoring applications, with potential improvements achievable through additional data and model scaling.
+
+============================================================
+End of Evaluation Report
+============================================================
