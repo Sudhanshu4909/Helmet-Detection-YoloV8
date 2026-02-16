@@ -1,0 +1,12 @@
+names:
+- Helmet
+nc: 1
+roboflow:
+  license: CC BY 4.0
+  project: helmet-detection-miti4
+  url: https://universe.roboflow.com/helmet-detection-cnnrq/helmet-detection-miti4/dataset/1
+  version: 1
+  workspace: helmet-detection-cnnrq
+test: ../test/images
+train: ../train/images
+val: ../valid/images

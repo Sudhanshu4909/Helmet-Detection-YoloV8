@@ -1,0 +1,41 @@
+# Core ML/DL Libraries
+torch>=2.9.0             
+torchvision>=0.24.0      
+ultralytics>=8.4.14      
+
+# Computer Vision
+opencv-python>=4.8.1      
+Pillow>=10.4.0            
+                         
+# Data Processing
+numpy>=1.27.0             
+pandas>=2.2.0  
+
+#Dataset
+roboflow==1.2.13
+                         
+# Visualization
+matplotlib>=3.8.0         
+seaborn>=0.13.2           
+
+# Metrics & Evaluation
+scikit-learn>=1.3.2      
+
+# API Development
+fastapi>=0.105.0          
+uvicorn[standard]>=0.26.0 
+python-multipart>=0.0.7  
+
+# Utilities
+pyyaml>=6.0.3
+tqdm>=4.67.0
+requests>=2.32.0
+
+# Jupyter for notebooks
+jupyter>=1.0.0
+ipykernel>=6.28.0
+notebook>=7.2.0
+
+# Logging
+tensorboard>=2.15.0
+
