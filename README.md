@@ -24,7 +24,7 @@ A production-ready Helmet Detection System built using **YOLOv8** for detecting 
 
 4. API endpoint:
    - Local server: [Api.py](Api.py)
-   - Public deployment: [Huggingface link](https://sudhanshu03-helmet-detection.hf.space)
+   - Public deployment: [Huggingface API](https://sudhanshu03-helmet-detection.hf.space)
 
 5. End-to-End Process Documentation: [README.md](README.md)
 
