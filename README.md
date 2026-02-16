@@ -130,7 +130,7 @@ https://universe.roboflow.com/helmet-detection-cnnrq/helmet-detection-miti4
 Train YOLOv8 model:
 
 ```bash
-python train.py
+python training.py
 ```
 
 Outputs:
@@ -211,7 +211,7 @@ Example detections produced by the model:
 Start API server:
 
 ```bash
-python app.py
+python api.py
 ```
 
 API available at:
