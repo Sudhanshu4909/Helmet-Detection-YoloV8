@@ -14,6 +14,23 @@ A production-ready Helmet Detection System built using **YOLOv8** for detecting 
 
 ---
 
+##  Deliverables
+
+1. Model training notebook: [training_notebook.ipynb](training_notebook.ipynb)
+
+2. Evaluation report: [evaluation_report.txt](results/evaluation/evaluation_report.txt)
+
+3. Inference script: [Inference.py](Inference.py)
+
+4. API endpoint:
+   - Local server: [Api.py](Api.py)
+   - Public deployment: [Huggingface API](https://sudhanshu03-helmet-detection.hf.space)
+
+5. End-to-End Process Documentation: [README.md](README.md)
+
+
+---
+
 ##  Project Structure
 
 ```
@@ -163,6 +180,11 @@ Evaluation includes:
 * Confusion matrix
 * Evaluation report
 
+##  Confusion MAtrix Of the Trained Model:
+<p align="center">
+  <img src="results/evaluation/confusion_matrix.png" width="400"/>
+</p>
+
 ---
 
 ##  Inference Usage
@@ -199,10 +221,9 @@ Example detections produced by the model:
 <p align="center">
   <img src="results/inference/Different-types-of-helmets_detected.jpg" width="250"/>
   <img src="results/inference/images_detected.jpg" width="250"/>
-  <a href="results/inference/5450256-uhd_3840_2160_30fps_detected.mp4">
-    <img src="results/inference/video_preview.jpg" width="250"/>
-  </a>
+  <img src="results/inference/video.gif" width="250"/>
 </p>
+
 
 ---
 
