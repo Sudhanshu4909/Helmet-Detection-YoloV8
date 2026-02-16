@@ -163,6 +163,11 @@ Evaluation includes:
 * Confusion matrix
 * Evaluation report
 
+##  Confusion MAtrix Of the Trained Model:
+<p align="center">
+  <img src="results/valuation/confusion_matrix.png" width="250"/>
+</p>
+
 ---
 
 ##  Inference Usage
