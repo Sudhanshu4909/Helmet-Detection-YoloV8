@@ -2,7 +2,6 @@
 
 A production-ready Helmet Detection System built using **YOLOv8** for detecting safety helmet compliance in images and videos. This project provides an end-to-end pipeline including dataset preparation, model training, evaluation, inference utilities, and REST API deployment.
 
-The system can be used for construction safety monitoring, PPE compliance automation, and industrial surveillance scenarios.
 
 ---
 
