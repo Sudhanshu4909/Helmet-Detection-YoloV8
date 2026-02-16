@@ -288,7 +288,7 @@ curl -X POST https://sudhanshu03-helmet-detection.hf.space/predict/batch \
   -F "files=@image1.jpg" \
   -F "files=@image2.jpg"
 
-
+```
 
 ---
 
