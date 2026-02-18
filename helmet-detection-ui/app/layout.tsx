@@ -1,6 +1,7 @@
 // app/layout.tsx
 import "./globals.css";
 import { ReactNode } from "react";
+import { Analytics } from "@vercel/analytics/next";
 
 export const metadata = {
   title: "Helmet Detection Dashboard",
@@ -33,6 +34,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             © {new Date().getFullYear()} Helmet Detection — built with Ultralytics YOLOv8
           </footer>
         </div>
+        <Analytics />
       </body>
     </html>
   );
